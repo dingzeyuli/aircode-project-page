@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -46,21 +48,6 @@ header div {
 }
 
 
-#urlnote 
-{ 
-  margin-top: 3px; 
-  box-shadow: 1px 1px 1px #888; 
-  background-color: #FEA; 
-  border: 1px solid #666; 
-  padding: 5px; 
-  padding-left: 20px; 
-/*   
-  display: inline; 
-  position: absolute; 
-*/ 
-  top: 0px; 
-  left: 0px; 
-}
 
 #authors {
   font-size:0.7em;
@@ -98,6 +85,17 @@ i{
   font-style: italic;
 }
 
+#main #urlnote 
+{ 
+  background:#FFEEAA;
+  box-shadow: 1px 1px 1px #888888; 
+  border: 1px solid #666666; 
+  margin-top: 3px; 
+  padding: 5px; 
+  padding-left: 20px; 
+  top: 0px; 
+  left: 0px; 
+}
 .video-container {
   position:relative;
   padding-bottom:56.25%;
@@ -128,6 +126,7 @@ pre{
   text-align:justify;
   text-justify:inter-word;
 }
+
 
 #main #downloads_list{
   padding-top:10px;
