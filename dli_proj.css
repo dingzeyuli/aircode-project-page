@@ -39,6 +39,7 @@ header {
   padding-bottom:20px;
   padding-top:20px;
   display: inline-block;
+  position: relative;
 }
 
 header div {
@@ -57,14 +58,16 @@ header div {
   font-size:0.7em;
 }
 
-#github {
+header #github {
   text-align: right;
-  margin-top:20px;
-  display: inline-block;
-  width: 23%;
+  width: 19%;
+  min-width: 140px;
   -ms-transform: rotate(7deg); /* IE 9 */
   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
   transform: rotate(7deg);
+  position: absolute;
+  top: 40px;
+  right: 0;
 }
 
 #main{
