@@ -8,19 +8,13 @@
     <meta name="keywords" content="3D printing, Aircode, tagging, design tool">
     <link rel="stylesheet" href="./dli_proj.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="./justifiedGallery.min.css" />
+    <link rel="stylesheet" href="./colorbox.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500" rel="stylesheet">
     <meta name="author" content="Dingzeyu Li" >
     <meta name="author-url" content="http://dingzeyu.li/" >
 </head>
 
 <body>
-
-<div class=urlnote>
-<b> AirCode Presentation Schedule: Tuesday, Oct. 24, 11:00 AM session.</b>
-<br>
-<b> My UIST Doctoral Symposium Schedule: Sunday, Oct. 22, 11:20 AM.</b>
-</header>
-</div>
 
 <header>
 AirCode: Unobtrusive Physical Tags for Digital Fabrication
@@ -33,47 +27,81 @@ AirCode: Unobtrusive Physical Tags for Digital Fabrication
 <br>
 <div id="pub_venue">ACM Symposium on User Interface Software and Technology (UIST), Paper, 2017</div>
 <br>
+<div id="pub_venue"><img class="middle" src="http://dingzeyu.li/imgs/award2.svg" height="20pt" />&nbsp;&nbsp;Best Paper Award</div>
+<br>
+<a href="https://github.com/dingzeyuli/AirCode"><img id='github' src="./github.png" /></a>
+</header>
+
 <div id="main">
+  <!--
+<div id="urlnote">
+  <b>
+AirCode Presentation: Tuesday, Oct. 24, 11:00AM session.
+<br>
+My UIST Doctoral Symposium Talk: Sunday, Oct. 22, 11:20AM, Ste-Foy room.
+</b>
+</div>
+-->
+<br>
+
   <div class="video-container" >
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/AeO4ydc8yqY" frameborder="0" allowfullscreen></iframe> 
   </div>
+  
+
         
-  <br><i>abstract </i><br>
+  <br><i><b>abstract</b></i><br>
   <div id="abstract">
     We present AirCode, a technique that allows the user to tag physically fabricated objects with given information. An AirCode tag consists of a group of carefully designed air pockets placed beneath the object surface. These air pockets are easily produced during the fabrication process of the object, without any additional material or postprocessing. Meanwhile, the air pockets affect only the scattering light transport under the surface, and thus are hard to notice to our naked eyes. But, by using a computational imaging method, the tags become detectable. We present a tool that automates the design of air pockets for the user to encode information. AirCode system also allows the user to retrieve the information from captured images via a robust decoding algorithm. We demonstrate our tagging technique with applications for metadata embedding, robotic grasping, as well as conveying object affordances. 
   </div>
   <hr>
 
   <div id="downloads_list">
-  <i> downloads </i><br><br>
+    <i><b>downloads</b></i><br>
 
   <a href="./aircode-uist-2017-li-et-al.pdf"><abbr title="3MB original resolution">Paper</abbr> </a>   /
   <a href="./aircode-uist-2017-li-et-al-compressed.pdf"><abbr title="700KB low resolution for slow internet connection">Paper (low resolution)</abbr></a>  / 
   <a href="https://arxiv.org/abs/1707.05754">arxiv</a>
   <br>
-  <a href="https://youtu.be/rPeGpjGHk4Y">Youtube</a> <span id="bilibili"></span> / 
-  <a href="./aircode-uist-2017-li-et-al.mp4">Video (100MB)</a>  
+  Source Code: <a href="https://github.com/dingzeyuli/AirCode">Github</a>
   <br>
+  <a href="https://youtu.be/rPeGpjGHk4Y">Youtube</a> <span id="bilibili"></span> / 
+  <a href="./aircode-uist-2017-li-et-al.mp4">Video (100MB)</a>
+  <br>
+  Slides: 
+  <a href="./aircode-uist-2017-slides.key.zip"><abbr title="">keynote (100MB)</abbr></a>  / 
+  <a href="./aircode-uist-2017-slides.pdf"><abbr title="">pdf (30MB)</abbr></a> /
+  <a href="./slides/" target="_blank"><abbr title="">html viewer</abbr></a> 
+  <br>
+  Models: 
+  <a href="http://www.thingiverse.com/thing:2618319">Triangle Drawer</a> / 
+  <a href="http://www.thingiverse.com/thing:2618369">Mug</a> /
+  <a href="http://www.thingiverse.com/thing:2618338">Statue</a>
+
+  <br>
+  <hr>
+
+  <i><b> external resources</b> </i><br>
+
+  <a href="http://vision.gel.ulaval.ca/~jouellet/code/DualEllipse/de.html">Ellipse Detector</a><br>
+  <a href="http://www1.cs.columbia.edu/CAVE/publications/pdfs/Krishnan_TOG06.pdf">Local and Global Component Separation</a><br>
+  <br>
+  
+  <hr>
+  <i><b> equipment</b> </i><br>
+  <a href="https://www.universal-robots.com/products/ur5-robot/">UR5 Robot</a><br>
+  <a href="http://www.stratasys.com/3d-printers/objet-eden-260vs">Objet Eden 260VS Printer</a><br>
+  <a href="https://www.amazon.com/Mitsubishi-PK20-PocketProjector/dp/B000I28EGC">Mitsubishi PK20 Projector</a><br>
+  <a href="https://www.ptgrey.com/grasshopper3-32-mp-mono-usb3-vision-sony-pregius-imx252">PointGrey GrassHopper3 Monochrome Camera</a><br>
+  Fujinon lenses: <a href="http://www.fujifilmusa.com/products/optical_devices/machine-vision/2-3-5/hf25sa-1/">25mm</a> / 
+  <a href="http://www.fujifilmusa.com/products/optical_devices/machine-vision/2-3-5/hf50sa-1/">50mm</a> <br>
+  <br>
+
   </div>
 
   <hr>
-<!--
-  <i> bibtex citation</i><br>
-  <font size=-1>
-  <pre>
-@inproceedings{Li:2017:aircode,
-  title={AirCode: Unobtrusive Physical Tags for Digital Fabrication},
-  author={Li, Dingzeyu and Nair, Avinash S. and Nayar, Shree K. and Zheng, Changxi},
-  booktitle = {Proc. {UIST} 2017},
-  year={2017},
-  doi={10.1145/2897824.2925960}
-}
-  </pre>
-  </font>
-  <hr>
-  -->
 
-  <i> images </i><br><br>
+  <i><b>images</b></i><br><br>
 
   <div id="mygallery">
     <a href="imgs/capture_setup_bright.jpg" title="Our capture system.">
@@ -130,8 +158,130 @@ AirCode: Unobtrusive Physical Tags for Digital Fabrication
   </div>
 
   <hr><br>
+  <i><b>slides quickview: </b></i><br><br>
+  <div id="mygallery2">
+    <a href="slides_imgs/aircode-uist-2017-online.001.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.001.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.002.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.002.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.003.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.003.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.004.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.004.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.005.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.005.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.007.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.007.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.008.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.008.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.010.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.010.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.011.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.011.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.012.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.012.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.013.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.013.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.014.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.014.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.015.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.015.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.016.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.016.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.017.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.017.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.018.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.018.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.019.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.019.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.021.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.021.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.022.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.022.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.023.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.023.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.024.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.024.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.025.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.025.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.026.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.026.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.027.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.027.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.028.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.028.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.029.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.029.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.030.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.030.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.031.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.031.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.032.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.032.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.033.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.033.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.034.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.034.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.035.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.035.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.036.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.036.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.037.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.037.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.038.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.038.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.040.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.040.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.041.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.041.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.042.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.042.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.043.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.043.jpeg"/>
+    </a>
+  </div>
+  <hr>
+  <br>
 
-  <i> acknowledgements </i><br>
+  <i><b>acknowledgements</b></i><br>
   <p>
   We thank the anonymous reviewers for their feedback. We are grateful to 
   <a href="https://www.linkedin.com/in/arthur-j-autz-21817343/">Arthur Autz</a> for the support on 3D printing facilities, 
@@ -147,6 +297,21 @@ AirCode: Unobtrusive Physical Tags for Digital Fabrication
   This work was supported in part by the NSF Award CAREER-1453101. 
   Dingzeyu Li was partially supported by an Adobe Research Fellowship.
   </p>
+
+  <hr>
+  <br>
+
+  <i><b> bibtex citation </b></i><br>
+  <font size=-1>
+  <pre>
+@inproceedings{Li:2017:aircode,
+  title={AirCode: Unobtrusive Physical Tags for Digital Fabrication},
+  author={Li, Dingzeyu and Nair, Avinash S. and Nayar, Shree K. and Zheng, Changxi},
+  booktitle = {Proceedings of ACM Symposium on User Interface Software \& Technology},
+  year={2017},
+}
+  </pre>
+  </font>
   <hr>
 
   
@@ -162,11 +327,36 @@ AirCode: Unobtrusive Physical Tags for Digital Fabrication
     </script>
     <script src="./jquery.colorbox.js"></script>
     <script src="./jquery.swipebox.min.js"></script>
-    <script src="./jquery.justifiedGallery.min.js"></script>
+    <link rel="stylesheet" href="justifiedGallery.css" />
+    <script src="jquery.justifiedGallery.js"></script>
     <script type="text/javascript">
       $("#mygallery").justifiedGallery({
-        rowHeight: 150,
-      }); 
+        rowHeight: 130,
+        lastRow : 'nojustify',
+        rel : 'gallery1',
+      }).on('jg.complete', function () {
+			  $('#mygallery > a').colorbox({
+			  	maxWidth : '90%',
+			  	maxHeight : '90%',
+			  	opacity : 0.95,
+			  	transition : 'elastic',
+			  	current : ''
+			  })
+		  }); 
+
+      $("#mygallery2").justifiedGallery({
+        rowHeight: 80,
+        lastRow : 'nojustify',
+        rel : 'gallery2',
+      }).on('jg.complete', function () {
+			  $('#mygallery2 > a').colorbox({
+			  	maxWidth : '95%',
+			  	maxHeight : '95%',
+			  	opacity : 0.97,
+			  	transition : 'elastic',
+			  	current : ''
+			  })
+		  }); 
     </script>
     <script type="text/javascript" src="copyright.js"></script>
   </div>

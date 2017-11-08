@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -37,6 +39,7 @@ header {
   padding-bottom:20px;
   padding-top:20px;
   display: inline-block;
+  position: relative;
 }
 
 header div {
@@ -69,14 +72,16 @@ div.urlnote
   font-size:0.7em;
 }
 
-#github {
+header #github {
   text-align: right;
-  margin-top:20px;
-  display: inline-block;
-  width: 23%;
+  width: 19%;
+  min-width: 140px;
   -ms-transform: rotate(7deg); /* IE 9 */
   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
   transform: rotate(7deg);
+  position: absolute;
+  top: 40px;
+  right: 0;
 }
 
 #main{
@@ -97,6 +102,17 @@ i{
   font-style: italic;
 }
 
+#main #urlnote 
+{ 
+  background:#FFEEAA;
+  box-shadow: 1px 1px 1px #888888; 
+  border: 1px solid #666666; 
+  margin-top: 3px; 
+  padding: 5px; 
+  padding-left: 20px; 
+  top: 0px; 
+  left: 0px; 
+}
 .video-container {
   position:relative;
   padding-bottom:56.25%;
@@ -117,6 +133,7 @@ i{
 
 }
 
+.middle{vertical-align:-2pt;}
 
 pre{
     margin-left:60px;
@@ -127,6 +144,7 @@ pre{
   text-align:justify;
   text-justify:inter-word;
 }
+
 
 #main #downloads_list{
   padding-top:10px;
@@ -184,3 +202,5 @@ width:94%;
   }
 
 }
+
+
