@@ -98,7 +98,142 @@ My UIST Doctoral Symposium Talk: Sunday, Oct. 22, 11:20AM, Ste-Foy room.
   <br>
 
   </div>
-
+  <hr>
+  <i><b>slides quickview </b></i><br><br>
+  <div id="mygallery2">
+    <a href="slides_imgs/aircode-uist-2017-online.001.jpeg" title="We propose AirCode, an unobtrusive tagging method to embed invisilbe tags in real-world objects.">
+      <img src="slides_imgs/aircode-uist-2017-online.001.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.002.jpeg" title="Tags are everywhere. Tags make our travel and everyday life much easier. However,there is one caveat. <br>Tags alter appearance and compromise on aesthetics.">
+      <img src="slides_imgs/aircode-uist-2017-online.002.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.003.jpeg" title="For example on this beautifully designed movie poster, although the QR code can conveniently redirect us to the movie website, the intrusive QR Code greatly comprise the aesthetics. <br> Similar to 2D art designs, putting traditional tags on 3D objects also changes the appearance and introduces undesirable visual intrusion.">
+      <img src="slides_imgs/aircode-uist-2017-online.003.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.004.jpeg" title="AirCode tags are invisible to naked eyes, yet machine-readable with computational imaging method.">
+      <img src="slides_imgs/aircode-uist-2017-online.004.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.005.jpeg" title="Related Work. 
+      1) <a href='https://dl.acm.org/citation.cfm?id=2461936' target='_blank'>InfraStructs</a>, SIGGRAPH 2013. 
+      2) <a href='https://dl.acm.org/citation.cfm?id=2380187' target='_blank'>Acoustic Barcodes</a>, UIST 2012. 
+      3) <a href='https://dl.acm.org/citation.cfm?id=2702128' target='_blank'>Affordance++</a>, CHI 2015.">
+      <img src="slides_imgs/aircode-uist-2017-online.005.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.007.jpeg" title="Suppose we have a solid plastic slab, a light source, and a camera. <br>For all the rays that reflect directly on the surface, we call them direct component. The direct component dominates the visual appearance.">
+      <img src="slides_imgs/aircode-uist-2017-online.007.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.008.jpeg" title="When lights penetrate inside and scatter. it is called subsurface scattering, it happens in non-opaque materials like plastic, fabrics, papers, and our skins.
+      For the rays that arrive at camera through subsurface scattering, we call them global component. <br>In contrast to the dominant direct component, The global one is usually much weaker in intensity because energy is lost during the scattering process.">
+      <img src="slides_imgs/aircode-uist-2017-online.008.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.010.jpeg" title="When we take a single photo, the two parts are combined together. The direct part contributes to the majority of the appearance. In comparison, the global is weak.">
+      <img src="slides_imgs/aircode-uist-2017-online.010.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.011.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.011.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.012.jpeg" title="By projecting different structural light patterns and taking a series of images, we can computationally separate the direct and global components. <br>(Video embedded, please check the keynote file.)">
+      <img src="slides_imgs/aircode-uist-2017-online.012.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.013.jpeg" title="A typical separation result. The direct part contribute to the most of the visual features, whereas the global image capture the material differences in leaf veins thought light transport and scattering.">
+      <img src="slides_imgs/aircode-uist-2017-online.013.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.014.jpeg" title="Our key idea is to place air pockets inside the object. Since the air pockets are beneath the surface, the dominant direct component is unaffected.">
+      <img src="slides_imgs/aircode-uist-2017-online.014.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.015.jpeg" title="On the other hand, in the global component, lights scatter beneath the surface. The global components are different at regions with and without air pockets. 
+      Our project aims at finding the best location to put these air pockets.">
+      <img src="slides_imgs/aircode-uist-2017-online.015.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.016.jpeg" title="As an illustration, here we plot the separation results. The direct intensity stays constant. The global one changes. Making use of this intensity difference, we can encode information.">
+      <img src="slides_imgs/aircode-uist-2017-online.016.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.017.jpeg" title="">
+      <img src="slides_imgs/aircode-uist-2017-online.017.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.018.jpeg" title="Now we can construct the full AirCode layout. Largely inspired by QR code, our layout consists of three main regions, Markers, Data Bits, and Calibrations bits.">
+      <img src="slides_imgs/aircode-uist-2017-online.018.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.019.jpeg" title="Aircode has several distinctive benefits.">
+      <img src="slides_imgs/aircode-uist-2017-online.019.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.021.jpeg" title="Widely studied in physiology and vision research, two main factors contribute to whether or not we can see a target with our naked eyes. ">
+      <img src="slides_imgs/aircode-uist-2017-online.021.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.022.jpeg" title="In order to predict the appearance, we use the layered scattering model commonly used in rendering.<br>Both profiles describe the ratio of outgoing energy to the incident energy.">
+      <img src="slides_imgs/aircode-uist-2017-online.022.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.023.jpeg" title="Here are two layers with different reflection and transmission profiles, R1,T1, and R2,T2. 
+      The goal is to compute the combine reflection profile R. beaucse that is what’s captured on camera.">
+      <img src="slides_imgs/aircode-uist-2017-online.023.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.024.jpeg" title="Putting the pipeline together, given any multi-layer configuration, 
+      we can compute the contrast efficiently and check if it’s within the contrast threshold.">
+      <img src="slides_imgs/aircode-uist-2017-online.024.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.025.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.025.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.026.jpeg" title="The first applications is metadata embedding.
+      Inside this square piece, we encode a text message, which is invisible under normal lighting, yet can be revealed with separation method.">
+      <img src="slides_imgs/aircode-uist-2017-online.026.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.027.jpeg" title="Same piece holding in hand. (Video embedded, please check the keynote file.)">
+      <img src="slides_imgs/aircode-uist-2017-online.027.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.028.jpeg" title="Visulization of internal air pockets.">
+      <img src="slides_imgs/aircode-uist-2017-online.028.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.029.jpeg" title="AirCode tags can also be used as create hyperlinks between physical designs and digital information. ">
+      <img src="slides_imgs/aircode-uist-2017-online.029.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.030.jpeg" title="In this statue piece, AirCode tag embeds a hyperlink to the correspond wikipedia page. We envision that this connection between physical and digital world can be further explored to embed for example copyright information, authenticity verification, or even convey affordance for functional objects.">
+      <img src="slides_imgs/aircode-uist-2017-online.030.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.031.jpeg" title="AirCode tags also help robotic manipulators interact with man-made objects. 
+      In robotic grasping tasks, a challenge is to recognize an object, estimate its pose, and decide where to grasp. AirCode solves these three challenging issues by embedding information in the same tag.
+      ">
+      <img src="slides_imgs/aircode-uist-2017-online.031.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.032.jpeg" title="By decoding AirCode tag, the robot recognizes this is a triangle drawer, knows the 3D model, grasp on the red edge.
+      Since we do not use traditional object recognition and depth sensing, 
+      even if the handle is fully occluded,
+      the robot can still recognize the drawer and predict the grasping location.">
+      <img src="slides_imgs/aircode-uist-2017-online.032.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.033.jpeg" title="We also tested on curved surfaces on a 3D-printed mug. Note AirCode tags are generated in the process of fabrication, 
+      the robot can identify and manipulate the object immediately after its fabrication.">
+      <img src="slides_imgs/aircode-uist-2017-online.033.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.034.jpeg" title="AirCode is based subsurface scattering, This means the theory can naturally extend beyond 3D printing mateirals. In general, as long as the materials are not fully opaque, it is possible to exploit subsurface light transport for tagging.">
+      <img src="slides_imgs/aircode-uist-2017-online.034.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.035.jpeg" title="As a demonstration, here we embed watermarks in a stack of papers.
+      The embedded text is invisible.">
+      <img src="slides_imgs/aircode-uist-2017-online.035.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.036.jpeg" title="revealed in the global component">
+      <img src="slides_imgs/aircode-uist-2017-online.036.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.037.jpeg" title="show the construction steps">
+      <img src="slides_imgs/aircode-uist-2017-online.037.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.038.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.038.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.040.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.040.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.041.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.041.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.042.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.042.jpeg"/>
+    </a>
+    <a href="slides_imgs/aircode-uist-2017-online.043.jpeg" title=" ">
+      <img src="slides_imgs/aircode-uist-2017-online.043.jpeg"/>
+    </a>
+  </div>
   <hr>
 
   <i><b>images</b></i><br><br>
@@ -157,127 +292,6 @@ My UIST Doctoral Symposium Talk: Sunday, Oct. 22, 11:20AM, Ste-Foy room.
     </a>   
   </div>
 
-  <hr><br>
-  <i><b>slides quickview: </b></i><br><br>
-  <div id="mygallery2">
-    <a href="slides_imgs/aircode-uist-2017-online.001.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.001.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.002.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.002.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.003.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.003.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.004.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.004.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.005.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.005.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.007.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.007.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.008.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.008.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.010.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.010.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.011.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.011.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.012.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.012.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.013.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.013.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.014.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.014.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.015.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.015.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.016.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.016.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.017.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.017.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.018.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.018.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.019.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.019.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.021.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.021.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.022.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.022.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.023.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.023.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.024.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.024.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.025.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.025.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.026.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.026.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.027.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.027.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.028.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.028.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.029.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.029.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.030.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.030.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.031.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.031.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.032.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.032.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.033.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.033.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.034.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.034.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.035.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.035.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.036.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.036.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.037.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.037.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.038.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.038.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.040.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.040.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.041.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.041.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.042.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.042.jpeg"/>
-    </a>
-    <a href="slides_imgs/aircode-uist-2017-online.043.jpeg" title=" ">
-      <img src="slides_imgs/aircode-uist-2017-online.043.jpeg"/>
-    </a>
-  </div>
   <hr>
   <br>
 
