@@ -127,6 +127,11 @@ i{
   height:100%;
 }
 
+
+#downloads_list iframe {    
+  float:right;    
+}
+
 .fb-video-container {
   position:relative;
   overflow:hidden;
